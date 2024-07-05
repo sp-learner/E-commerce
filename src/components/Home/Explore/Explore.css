@@ -1,0 +1,68 @@
+.explore {
+    display: flex;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .left-content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 150px;
+  }
+  
+  .left-content h1, .left-content p {
+    margin: 0 0 10px 0;
+    color: black;
+  }
+
+  .left-content p{
+    margin-right: 80px;
+    margin-top: 20px;
+  }
+  
+  .right-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .image-boxes {
+    display: flex;
+    gap: 25px;
+    margin-right: 120px;
+  }
+  
+  .box {
+    position: relative;
+    width: 300px;
+    height: 450px;
+  }
+  
+  .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .box h1, .box p {
+    position: absolute;
+    color: white;
+    margin-top: 170px;
+    padding: 10px;
+    color: black;
+    margin-left: 30px;
+  }
+  
+  .box h1  {
+    top: 10px;
+    left: 10px;
+  }
+  
+  .box p {
+    bottom: 5px;
+    margin-bottom: 180px;
+  }
+  
+  
+  
